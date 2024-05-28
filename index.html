@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Produto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header id="header">
+        <h1> Registro de Produto</h1>
+    </header>
+    <div class="container">
+        <main>
+            <section class="register-section">
+                <h2> Registre um novo produto </h2>
+                <form id="register-form">
+                    <input type="text" id="product-name" name="product-name" placeholder="Nome do Produto">
+                    <input type="text" id="product-code" name="product-code" placeholder="Código do Produto">
+                    <button type="button" id="next-button">Próximo</button>
+                </form>
+            </section>
+            <section class="details-section">
+                <h2> Detalhes </h2>
+                <p> Insira as informações necessárias abaixo </p>
+                <form>
+                    <label for="product-price">Preço</label>
+                    <input type="text" id="product-price" name="product-price" placeholder="Inserir Preço">
+                    <label for="product-category">Categoria</label>
+                    <select id="product-category" name="product-category">
+                        <option value="categoria-1">Categoria 1</option>
+                        <option value="categoria-2">Categoria 2</option>
+                        <option value="categoria-3">Categoria 3</option>
+                        <option value="categoria-4">Categoria 4</option>
+                    </select>
+                    <label for="product-type">Tipo</label>
+                    <select id="product-type" name="product-type">
+                        <option value="tipo-1">Tipo 1</option>
+                        <option value="tipo 2">Tipo 2</option>
+                        <option value="tipo 3">Tipo 3</option>
+                        <option value="tipo 4">Tipo 4</option>
+                    </select>
+                    <label for="suply-quantity">Quantidade em Estoque</label>
+                    <input type="text" id="suply-quantity" name="suply-quantity" placeholder="Informar quantidade em estoque">
+                    <label for="description">Descrição</label>
+                    <input type="text" id="description" name="description" placeholder="Insira uma descrição">
+                    <button type="button" id="save-button">Salvar</button>
+                </form>
+            </section>
+
+
+        </main>
+    </div>
+    
+</body>
+</html>
